@@ -1,0 +1,5 @@
+@media screen and (max-width: 404px) {
+  .form-input {
+    width: 50%;
+  }
+}
