@@ -6,27 +6,24 @@
 .navigation {
   font-family: var(--font1);
 
- /* height: 74px;*/
+  /* height: 74px;*/
   /*background-color:red;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top:25px;
+  margin-top: 25px;
 }
 
-.nav-right{
-
-  padding-bottom:23px;
+.nav-right {
+  padding-bottom: 23px;
 }
 
 .nav-left {
-
   display: flex;
 }
 
-.nav-left span{
-
-    font-size:35px;
+.nav-left span {
+  font-size: 35px;
 }
 .nav-left ul {
   display: flex;
@@ -34,7 +31,7 @@
   margin: 0 40px;
   font-size: 20px;
   font-weight: bold;
-  padding-bottom:23px;
+  padding-bottom: 23px;
 }
 .nav-left ul li {
   list-style: none;
@@ -57,23 +54,20 @@
   /*  background-color:rgb(208,208,243);*/
   margin-top: 18px;
   padding: 10px;
-  
-  position:relative;
+
+  position: relative;
 }
 
-.content::after{
-    content:"";
-   background-image:url('../img/11.svg');
-   position:absolute;
-   width:100%;
-   height:inherit;
-   opacity:0.39;
-   background-size:93%;
-   mix-blend-mode:color;
-   border-radius:12px;
-
-
-
+.content::after {
+  content: "";
+  background-image: url("../img/11.svg");
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.39;
+  background-size: 93%;
+  mix-blend-mode: color;
+  border-radius: 12px;
 }
 
 .content-left {
@@ -82,8 +76,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding:50px;
-  z-index:1;
+  padding: 50px;
+  z-index: 1;
 }
 
 .content-right {
@@ -103,24 +97,22 @@
   /*height: 455px;*/
   padding: 18px;
 
- background-color:rgb(244,213,213,0.5);
- margin-top:23px;
- position:relative;
+  background-color: rgb(244, 213, 213, 0.5);
+  margin-top: 23px;
+  position: relative;
 }
 
-.year-box{
-
+.year-box {
   position: absolute;
   width: 234px;
   height: 255px;
- 
+
   right: -135px;
   top: 71px;
-  font-size:18px;
+  font-size: 18px;
 }
 
-.year-box div{
-
+.year-box div {
   margin: 12px 0px;
 }
 
@@ -135,10 +127,9 @@
   align-self: center;
   padding: 25px;
 }
-.home-article-content a{
-
-    text-decoration: none;
-    color:black;
+.home-article-content a {
+  text-decoration: none;
+  color: black;
 }
 
 .footer {
